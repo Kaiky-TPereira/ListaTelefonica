@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    block-size: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    display: block;
+    text-align: center;
+    padding: 30px 60px;
+    background-color: rgba(20, 174, 69, 0.4);
+    color: rgb(44, 182, 79);
+    font-weight: normal;
+    align-items: center;
+}
+
+.container{
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+header a{
+    padding:0 10px;
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.reset{
+    border: none;
+    background-color: rgba(51, 196, 40, 0.728);
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    margin-bottom: 20px;
+}
+
+.reset:hover{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.257);
+    border-right: 1px solid rgba(0, 0, 0, 0.257);
+    background-color: rgb(44, 182, 79)
+}
+
+.reset:active{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.257);
+    border-right: 1px solid rgba(0, 0, 0, 0.257);
+    background-color: rgb(44, 182, 79);
+}
+
+header a:hover{
+    color:rgba(0, 0, 0, 0.31);
+}
+
+h3{
+    color: rgba(0, 0, 0, 0.783);
+}
+
+.tabela{
+    padding: 80px 20px;
+    display: flex;
+}
+
+.inContatoNovo{
+    width: 100%;
+    text-align: center;
+}
+
+.inContatoNovo h2{
+    padding: 20px;
+}
+
+.inContatoNovo input{
+    padding: 8px 10px;
+    border: 0.1px solid rgba(0, 0, 0, 0.296);
+}
+
+header img{
+    height: 36px;
+    margin-right: 16px;
+}
+
+
+.BotaoSubmit{
+    padding: 10px;
+    background-color: rgba(51, 196, 40, 0.728);
+    border: none;
+}
+
+.BotaoSubmit:hover{
+    background-color:rgb(44, 182, 79);;
+}
+
+.BotaoSubmit:active{
+    background: rgb(13, 227, 77);
+}
+
+.AgendaVirtual{
+    text-align: center;
+    padding: 0px 8px;
+
+    margin: 0 auto;
+}
+
+h3{
+    text-align: center;
+    font-size: 25px;
+    padding: 0 20px;
+}
+
+table{
+    max-width: 500px;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    border: 2px solid rgba(42, 208, 56, 0.342);
+    border-radius: 20px;
+}
+
+.itemNovo{
+    border-top: 1px solid rgb(0, 0, 0);
+}
+
+
+th{
+    color: rgba(14, 14, 14, 0.663);
+    padding: 8px 0 ;
+}
+
+td{
+    margin: 0;
+    padding: 0;
+}
